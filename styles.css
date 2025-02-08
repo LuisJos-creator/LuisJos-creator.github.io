@@ -46,14 +46,14 @@ main section.eshop {
 
 main section.online {
     width: 100%;
-    height: 500px;
+    height: 1000px;
     padding: 15px;
-    background: linear-gradient(#cf0011, #ff0000);
+    background: linear-gradient(#aa000e, #ff0000);
     display: block;
 }
 
-main section.online {
+main section.online h1 {
     color: white;
-
-
+    display: flex;
+    justify-content: center;
 }
