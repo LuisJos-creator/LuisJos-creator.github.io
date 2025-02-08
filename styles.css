@@ -57,3 +57,9 @@ main section.online h1 {
     display: flex;
     justify-content: center;
 }
+
+main section.online div.cart {
+    color: #000;
+    width: 500px;
+    height: 500px;
+}
