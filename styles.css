@@ -67,8 +67,8 @@ main section.online div.cart {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 70px;
-    margin-left: 3.5%;
+    gap: 5%;
+    justify-content: center;
 }
 
 .card {
