@@ -4,16 +4,6 @@
     box-sizing: border-box;
 }
 
-@keyframes slideIn {
-    from {
-        opacity: 0;
-        transform: translateY(50px) scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-    }
-}
 
 nav {
     width: 100%;
@@ -77,8 +67,8 @@ main section.online div.cart {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 5%;
-    justify-content: center;
+    gap: 70px;
+    margin-left: 3.5%;
 }
 
 .card {
@@ -89,8 +79,7 @@ main section.online div.cart {
     align-items: center;
     background-color: #ee161f;
     text-wrap: wrap;
-    opacity: 0; /* Inicialmente invisible */
-    animation: slideIn 0.5s forwards; /* Aplica la nueva animación con duración de 0.5 segundos */
+
 }
 
 .card-img-top{
@@ -112,17 +101,17 @@ p.card-text {
 }
 
 button {
-    background-color: #8d060b;
-    color: white;
-    border: #8d060b;
-    border-radius: 10px;
-    padding-top: 5px;
-    padding-right: 10px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    margin-right: 20px;
-    margin-left: 20px;
-    font-family: "Shafarik", serif;
-    cursor: pointer;
+background-color: #8d060b;
+color: white;
+border: #8d060b;
+border-radius: 10px;
+padding-top: 5px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-left: 10px;
+margin-right: 20px;
+margin-left: 20px;
+font-family: "Shafarik", serif;
+
 }
 
