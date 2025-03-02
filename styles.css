@@ -44,31 +44,33 @@ main section.eshop {
     height: 500px;
 }
 
-main section.online {
+main section.games {
     width: 100%;
-    height: 5000px;
+    height: 2540px;
     padding: 15px;
-    background: linear-gradient(#aa000e, #ff0000);
+    background: linear-gradient(#ee161f, #4d0000);
     display: block;
 }
 
-main section.online h1 {
+main section.games h1 {
     color: white;
     display: flex;
     justify-content: center;
-}
-
-main section.online div.cart {
-    color: #000;
-    width: 500px;
-    height: 500px;
+    font-family: "Shafarik", serif;
+    font-size: 50px;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
+    gap: 5%;
+    justify-content: center;
+    padding-top: 50px;
+=======
     gap: 70px;
     margin-left: 3.5%;
+>>>>>>> d27d45244f411a8ae9d426702e087d32f21ec6f2
 }
 
 .card {
@@ -115,3 +117,17 @@ font-family: "Shafarik", serif;
 
 }
 
+main section.biography {
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+
+}
+
+section img.Nintendologo {
+    display: flex;
+    border: solid;
+    padding-right: 40px;
+    justify-content: center;
+
+}
